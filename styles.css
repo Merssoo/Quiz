@@ -1,0 +1,129 @@
+body {
+    font-family: 'Concert One', cursive;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url(./img/conceito-de-transformacao-digital-de-fundo-de-cerebro-de-tecnologia-de-ia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+h1 {
+  text-align: center;
+}
+
+#name-container{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+
+  width: 300px;
+  padding: 20px;
+
+  border:3px solid #ffffff7c;
+  border-radius: 15px;
+  background-color: #ffffff65;
+}
+
+.name-input{
+  margin-bottom: 1rem;
+}
+
+#name-input{
+  text-align: center;
+
+  border-radius: 20px;
+  height: 1.5rem;
+
+  outline-color:#0abcf0;
+  background-color: #ffffff65 ;
+  border: solid 2px rgb(255, 252, 252);
+}
+
+
+.name-button{
+  font-family: 'Concert One', cursive;
+
+  height: 2rem;
+  margin-top: 1rem;
+
+  border-radius: 20px;
+  border: none;
+
+  background-color: #0abcf0;
+}
+
+.name-button:hover{
+  background-color: #86fbfb;
+  border: solid 2px white;
+}
+
+#question-container {
+  width: 300px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  border:3px solid #ffffff7c;
+  border-radius: 15px;
+  background-color: #ffffff65;
+}
+
+ul{
+  text-align: justify;
+}
+
+p{
+  display: flex;
+  text-align: center;
+  background-color: #24c7f880;
+  border-radius: 15px;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#choices li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+
+#enviar{
+  font-family: 'Concert One', cursive;
+  width: 15rem;
+  height: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+
+  background-color: #0abcf0;
+}
+
+#enviar:hover{
+  background-color: #86fbfb;
+  border: solid 2px white
+}
+
+#result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  font-weight: bold;
+
+  border:3px solid #ffffff7c;
+  border-radius: 15px;
+  background-color: #ffffff65;
+  width: 20rem;
+  height: 4rem;
+}

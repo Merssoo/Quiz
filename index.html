@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo de Perguntas e Respostas</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Quiz programação</h1>
+
+  <div id="name-container">
+    <label class="name-input">Digite seu nome</label>
+    <input type="text" id="name-input">
+    <button class="name-button" onclick="startGame()">Iniciar Jogo</button>
+  </div>
+
+  <div id="question-container" style="display: none;">
+    <p id="question"></p>
+    <ul id="choices">
+      <li><input type="radio" name="choice" value="1"><span id="choice-text-1"></span></li>
+      <li><input type="radio" name="choice" value="2"><span id="choice-text-2"></span></li>
+      <li><input type="radio" name="choice" value="3"><span id="choice-text-3"></span></li>
+      <li><input type="radio" name="choice" value="4"><span id="choice-text-4"></span></li>
+    </ul>
+  
+    <button id="enviar" onclick="checkAnswer()">Verificar Resposta</button>
+  </div>
+
+  <div id="result" style="display: none;"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
